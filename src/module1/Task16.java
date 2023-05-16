@@ -7,7 +7,7 @@ public class Task16 {
         String day = scanner.nextLine();
         System.out.println("Это выходной? " + checkWeekend(day));
     }
-    public static boolean checkWeekend(String weekday){
-    return weekday.equals("Sunday") || weekday.equals("Saturday") ? true : false; // условие ? выражение1 : выражение2
+    public static String checkWeekend(String weekday){
+    return weekday.equals("Sunday") || weekday.equals("Saturday") ? "Ура, выходной!" : "Надо еще поработать"; // условие ? выражение1 : выражение2
     }
 }
