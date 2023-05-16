@@ -6,7 +6,7 @@ public class Task10 {
         System.out.println("Введите проверяемое число: ");
         int a = scanner.nextInt();
 
-        System.out.println(Task10.isPowerOfTwo((a)));
+        System.out.println(isPowerOfTwo((a)));
 
     }
     public static boolean isPowerOfTwo(int num){

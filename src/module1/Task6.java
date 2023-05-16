@@ -7,7 +7,7 @@ public class Task6 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите площаль треугольника: ");
         double area = scanner.nextDouble();
-        System.out.printf("Радиус окружности равен: %.3f", Task6.calcCircleRaduis(area));
+        System.out.printf("Радиус окружности равен: %.3f", calcCircleRaduis(area));
     }
     public static double calcCircleRaduis(double area){
         double result = Math.sqrt(area / Math.PI);

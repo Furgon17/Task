@@ -9,7 +9,7 @@ public class Task1 {
         int monitors = scanner.nextInt();
         System.out.println("Введите количество программистов: ");
         int programmers = scanner.nextInt();
-        System.out.println("Столько мониторов никому не достанутся! " + Task1.drawisMonitorsCounter(monitors, programmers));
+        System.out.println("Столько мониторов никому не достанутся! " + drawisMonitorsCounter(monitors, programmers));
     }
     public static int drawisMonitorsCounter(int monitors, int programmers){
         int result = monitors % programmers;

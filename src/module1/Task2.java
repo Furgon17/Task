@@ -8,7 +8,7 @@ public class Task2   {
         double price = scanner.nextDouble();
         System.out.println("Введите количество: ");
         int count = scanner.nextInt();
-        System.out.println("Итоговая стоимость: " + Task2.priceCalculation(price, count));
+        System.out.println("Итоговая стоимость: " + priceCalculation(price, count));
     }
     public static double priceCalculation(double price, int count){
         double result = price * count;

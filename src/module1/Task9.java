@@ -7,7 +7,7 @@ public class Task9 {
         byte a = scanner.nextByte();
         System.out.println("Введите возраст второго человека: ");
         byte b = scanner.nextByte();
-        System.out.println(Task9.getAgeDiff(a, b));
+        System.out.println(getAgeDiff(a, b));
 
     }
     public static byte getAgeDiff(byte age1, byte age2){

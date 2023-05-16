@@ -9,7 +9,7 @@ public class Task3 {
         double b = scanner.nextDouble();
         System.out.println("С каким числом сравниваем? ");
         double c = scanner.nextDouble();
-        System.out.println("Ответ: " + Task3.doubleExpression(a, b ,c));
+        System.out.println("Ответ: " + doubleExpression(a, b ,c));
     }
     public static boolean doubleExpression(double a, double b, double c){
 

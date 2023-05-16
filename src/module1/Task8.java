@@ -5,7 +5,7 @@ public class Task8 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Укажите расстоянии от \\ , для вывода символа: ");
         int a = scanner.nextInt();
-        System.out.println(Task8.charExpression(a));
+        System.out.println(charExpression(a));
 
     }
     public static char charExpression(int a){
