@@ -17,7 +17,7 @@ public class Task19 {
         int[] arr = new int[size];
         for (int i = 0; i<arr.length; i++){
             if (size == 2) arr[i] = numbers[centre++]; //для четного
-            if (size == 1) arr[i] = numbers[centre+1]; // для нечетного
+            else if (size == 1) arr[i] = numbers[centre+1]; // для нечетного
         }
 
         System.out.print("[");
