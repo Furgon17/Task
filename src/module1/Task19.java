@@ -19,7 +19,7 @@ public class Task19 {
             if (size == 2) arr[i] = numbers[centre++]; //для четного
             else if (size == 1) arr[i] = numbers[centre+1]; // для нечетного
         }
-
+// Вывод массива в консоль
         System.out.print("[");
         for (int i = 0; i<arr.length; i++){
             System.out.print(arr[i]);
