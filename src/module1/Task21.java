@@ -7,9 +7,7 @@ public class Task21 {
         int[] a = {2, 1, 5, 4, 9,};
         int[] b = {10, 6, 3, 7, 8};
         mergeAndSort(a, b);
-
     }
-
     public static void mergeAndSort(int[] firstArray, int[] secondArray) {
         //Создаю из двух массивов 1
         int size = firstArray.length + secondArray.length;
@@ -43,5 +41,4 @@ public class Task21 {
         }
         System.out.print("]");
     }
-
 }
