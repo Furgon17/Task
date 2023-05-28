@@ -1,4 +1,5 @@
 package module2.Task2;
+
 public class Robot {
     public static void main(String[] args) {
         Robot robot = new Robot(Direction.UP, 0, 0);
@@ -6,20 +7,25 @@ public class Robot {
     }
 
     private static Direction direction;//создаю объект взгляда
+
     public Direction getDirection() {
         // геттер, для текущего направления взгляда
         return direction;
     }
+
     private int x; //начальная координата х
     private int y;// начальная координата у
+
     public int getX() {
         // геттер для х
         return x;
     }
+
     public int getY() {
         // геттер для у
         return y;
     }
+
     //конструктор класса Робот, для задания начального положения
     public Robot(Direction direction, int x, int y) {
         this.direction = direction;
@@ -53,7 +59,7 @@ public class Robot {
 
     public void stepForward() {
         // шаг в направлении взгляда
-        if (direction == Direction.UP)  y++;
+        if (direction == Direction.UP) y++;
         if (direction == Direction.RIGHT) x++;
         if (direction == Direction.DOWN) y--;
         if (direction == Direction.LEFT) x--;

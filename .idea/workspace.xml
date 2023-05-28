@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4525fa91-4abf-4ddf-9e17-6b4e30c0bffa" name="Changes" comment="Задача 1">
+      <change afterPath="$PROJECT_DIR$/src/module2/Task6.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/Task2/Robot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module2/Task2/Robot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/Task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module2/Task3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module2/Task4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module2/Task4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/module2/Task5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module2/Task5.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,7 +88,7 @@
       <recent name="C:\Users\grako\IdeaProjects\Way to the middle developer\Exercises" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Task5">
+  <component name="RunManager">
     <configuration name="Task3 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="module2.Task3" />
       <module name="Exercises" />
@@ -189,20 +193,5 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Задача 1" />
     <option name="LAST_COMMIT_MESSAGE" value="Задача 1" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/module2/Task4.java</url>
-          <line>11</line>
-          <properties class="module2.Task4" method="getMinFromTwo">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

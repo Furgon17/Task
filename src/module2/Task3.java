@@ -10,9 +10,10 @@ public class Task3 {
         System.out.println(a.hashCode());
         System.out.println(b.hashCode());
     }
-    public static class ComplexNumber{
-    private final double re;
-    private final double im;
+
+    public static class ComplexNumber {
+        private final double re;
+        private final double im;
 
         public double getRe() {
             return re;
