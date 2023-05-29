@@ -1,6 +1,6 @@
-package Task7;
+package module2.Task7;
 
-import Task7.Home.Human;
+import module2.Task7.Home.Human;
 
 public class Task7 extends Human{
 //    Конструктор Task7 вызывает конструктор родительского класса с теми же параметрами, используя ключевое слово super

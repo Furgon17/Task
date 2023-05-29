@@ -1,4 +1,4 @@
-package Task8;
+package module2.Task8;
 
 public class Task8 {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Task7.Home;
+package module2.Task7.Home;
 
 public class Human {
     private final String secret; //секретики
