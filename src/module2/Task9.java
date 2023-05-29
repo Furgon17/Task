@@ -1,20 +1,16 @@
-package module2.Task8;
+package module2;
 
-public class Task8 {
+public class Task9 {
     public static void main(String[] args) {
-        JavaStudent js = new JavaStudent();
-        Student st = new Student();
-        st.study();
-        js.study();
+        LazyStudent ls = new LazyStudent();
+        ls.study();
     }
 
     public static class Student {
         protected final String studying;
-
         protected Student(String work) {
             this.studying = work;
         }
-
         public Student() {
             this.studying = "Прохожу тестовое задание.";
         }
@@ -24,9 +20,15 @@ public class Task8 {
         }
     }
 
-    public static class JavaStudent extends Student {
-        public JavaStudent() {
-            super("Прохожу курсы по Java");
+    public static class LazyStudent extends Student {
+        String studying;
+        public LazyStudent() {
+            studying = "мне лень.";
+        }
+
+        @Override
+        public void study() {
+            System.out.println("Сегодня не учусь, " + studying);
         }
     }
 }
