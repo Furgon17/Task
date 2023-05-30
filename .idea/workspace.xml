@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4525fa91-4abf-4ddf-9e17-6b4e30c0bffa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/module2/Task10/Task10.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_05_2023_18_25__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_05_2023_18_25__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module2/Task11/KeywordAnalyzer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module2/Task11/Label.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module2/Task11/NegativeTextAnalyzer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module2/Task11/SpamAnalyzer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module2/Task11/Task11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module2/Task11/TextAnalyzer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module2/Task11/TooLongTextAnalyzer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +22,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
+        <option value="Enum" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
