@@ -34,7 +34,7 @@ public class User {
 
     @Override
     public int hashCode() {
-        int result = 31 * id + phone + name.hashCode();
+        int result = 31 * id + phone/(id+1) + name.hashCode();
         return result;
     }
 }
