@@ -29,8 +29,9 @@ public class BankClient {
                 System.out.println("Ваш кредит одобрен!");
                 return true;
             }
-        } catch (BadCreditHistoryException e) {
+        } catch (BadCreditHistoryException ex) {
             System.out.println("Проблемы с банковской историей");
+        //    throw new BadCreditHistoryException(ex); Почему нельзя так сделать?!!!!!!!!!!!!!!!!!!!!!
         } catch (ProblemWithLawException e) {
             // Ничего не делаем, не нужно выводить сообщение
             System.out.println("Проблемы с законом.");

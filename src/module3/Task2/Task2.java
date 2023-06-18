@@ -8,6 +8,7 @@ public class Task2 {
     }
 
     private static void anotherMethod() {
+
         System.out.println(getCallerClassAndMethodName());
     }
 
@@ -18,7 +19,7 @@ public class Task2 {
         // Поэтому мы берем элемент с индексом 3, который будет соответствовать методу, вызвавшему метод, который вызвал
         // getCallerClassAndMethodName(). Если массив элементов стека вызовов содержит меньше 4 элементов, это означает,
         // что метод, вызвавший getCallerClassAndMethodName(), является точкой входа в программу, и мы возвращаем null.
-        StackTraceElement[] stackTrace = Thread.currentThread().getStackTrace();
+        StackTraceElement[] stackTrace = new Exception().getStackTrace();
         if (stackTrace.length < 4) {
             return null;
         }
