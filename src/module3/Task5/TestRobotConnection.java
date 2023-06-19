@@ -13,24 +13,25 @@ public class TestRobotConnection implements RobotConnection {
 
     @Override
     public void moveRobotTo(int x, int y) {
-        if (!isConnected) {
-            throw new RuntimeException("Соединение не установлено. :(");
+        // Если подключение не удалось, вывести исключение
+        if (isConnected == false) {
+            throw new RuntimeException("Соединение не установлено. :(, Не удалось переместить робота...");
         }
+        // Если удалось, передаем координаты
         this.x = x;
         this.y = y;
+        System.out.println("Робот успешно перемещен в х: " + x +", y: " + y);
     }
-
+    public boolean connect(int ping) {
+        if (ping < 5) {
+            return isConnected = true;
+        } else return isConnected = false;
+    }
     @Override
     public void close() {
         isConnected = false;
-        System.out.println("Соединение прервано");
+        System.out.println("Соединение закрыто");
     }
 
-    public boolean connect() {
-        int ping = (int) Math.random() * 10;
-        if (ping < 2) {
-            return isConnected = true;
-        } else isConnected = false;
-        return isConnected;
-    }
+
 }

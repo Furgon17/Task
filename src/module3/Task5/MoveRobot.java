@@ -1,13 +1,13 @@
 package module3.Task5;
 
 public class MoveRobot {
-    public static void moveRobot(RobotConnectionManager robotConnectionManager, int toX, int toY) throws RobotConnectionException {
+    public static void moveRobot(TestRobotConnectionManager robotConnectionManager, int toX, int toY) throws RobotConnectionException {
         int attempts = 0;
         boolean success = false;
-        RobotConnection connection = null;
+        TestRobotConnection connection = null;
         while (!success && attempts < 3) {
             try {
-                connection = robotConnectionManager.getConnection();
+                connection = (TestRobotConnection) robotConnectionManager.getConnection();
                 connection.moveRobotTo(toX, toY);
                 success = true;
             } catch (RobotConnectionException e) {
