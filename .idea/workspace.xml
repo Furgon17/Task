@@ -4,19 +4,62 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4525fa91-4abf-4ddf-9e17-6b4e30c0bffa" name="Changes" comment="Коммит, перед созданием ветки модуль2" />
+    <list default="true" id="4525fa91-4abf-4ddf-9e17-6b4e30c0bffa" name="Changes" comment="Задача 3">
+      <change afterPath="$PROJECT_DIR$/src/module3/Task2/Task2Exeption.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module3/Task5/MoveRobot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module3/Task5/MoveRobot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module3/Task5/MyRobotConnection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module3/Task5/Task5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module3/Task5/Task5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module3/Task5/TestRobotConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module3/Task5/TestRobotConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module3/Task5/TestRobotConnectionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module3/Task5/TestRobotConnectionManager.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="module-1" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="module2" />
+        <entry key="$PROJECT_DIR$" value="module-2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="18eaf4aa-7ece-4bf7-9531-7437c8adc2f4" />
+        <option name="url" value="https://github.com/Furgon17/Task.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -32,9 +75,97 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/grako/IdeaProjects/Way to the middle developer/Exercises&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.20689656&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.Mappings&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\grako\IdeaProjects\Way to the middle developer\Exercises\src" />
+      <recent name="C:\Users\grako\IdeaProjects\Way to the middle developer\Exercises" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="module3.Task2.Task2" />
+      <module name="Exercices" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="module3.Task2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="module3.Task4.Task4" />
+      <module name="Exercices" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="module3.Task4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="module2.Task5" />
+      <module name="Exercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="module2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tsk2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="module3.Task2.Tsk2" />
+      <module name="Exercices" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="module3.Task2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="module3.Task5.Task5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="module3.Task5.Task5" />
+      <module name="Exercices" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="module3.Task5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.module3.Task5.Task5" />
+        <item itemvalue="Application.Task2" />
+        <item itemvalue="Application.Tsk2" />
+        <item itemvalue="Application.Task4" />
+        <item itemvalue="Application.Task5" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -44,18 +175,65 @@
       <option name="presentableId" value="Default" />
       <updated>1684144503747</updated>
     </task>
-    <task id="LOCAL-00001" summary="Коммит, перед созданием ветки модуль2">
-      <created>1685201862592</created>
+    <task id="LOCAL-00001" summary="Задача 1">
+      <created>1684146164117</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1685201862592</updated>
+      <updated>1684146164117</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Задача 1">
+      <created>1684146267828</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1684146267828</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Задача 6">
+      <created>1685304268598</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1685304268598</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Задача с equals и hashCode">
+      <created>1686134634338</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1686134634339</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Задача 3">
+      <created>1686823012693</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1686823012693</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Коммит, перед созданием ветки модуль2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Коммит, перед созданием ветки модуль2" />
+    <MESSAGE value="Задача 1" />
+    <MESSAGE value="Задача 6" />
+    <MESSAGE value="Задача с equals и hashCode" />
+    <MESSAGE value="Задача 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Задача 3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/module3/Task2/Tsk2.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/module3/Task2/Tsk2.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
