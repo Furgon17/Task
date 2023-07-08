@@ -2,7 +2,7 @@ package module5.Task4;
 
 import java.util.*;
 
-public class Task5 {
+public class Task4 {
 //Set хранит в себе только уникальные элементы
     public static void main(String[] args) {
         Set<Integer> set1 = new LinkedHashSet<>();
