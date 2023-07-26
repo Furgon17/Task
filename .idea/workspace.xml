@@ -4,16 +4,40 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4525fa91-4abf-4ddf-9e17-6b4e30c0bffa" name="Changes" comment="Коммит, перед созданием ветки модуль2" />
+    <list default="true" id="4525fa91-4abf-4ddf-9e17-6b4e30c0bffa" name="Changes" comment="Потренировался с лямбда-выражениями">
+      <change afterPath="$PROJECT_DIR$/src/TregulovLessons/Les6/Lesson6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TregulovLessons/Les7_Sorted/Lesson5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TregulovLessons/Les8_flatMap/Lesson8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TregulovLessons/Les8_flatMap/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TregulovLessons/Lesson10minAndMax/Lesson10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TregulovLessons/les1/Lesson1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TregulovLessons/les1/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TregulovLessons/les11_ParallelStream/ParallelStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TregulovLessons/les2/Lesson2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TregulovLessons/les3/Lesson3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TregulovLessons/les4/Lesson4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TregulovLessons/les9/Lesson9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module7_Streams/Task1/Task1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module7_Streams/Task1/UnaryOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="module2" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -32,9 +56,44 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="Lesson8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TregulovLessons.Les8_flatMap.Lesson8" />
+      <module name="Exercices" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TregulovLessons.Les8_flatMap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TregulovLessons.les1.Test" />
+      <module name="Exercices" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TregulovLessons.les1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Lesson8" />
+        <item itemvalue="Application.Test" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
