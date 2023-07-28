@@ -6,7 +6,7 @@ import java.util.function.UnaryOperator;
 // выполняет над ними операции и возвращает результат операций в виде объекта типа T:
 public class Task1 {
     public static void main(String[] args) {
-    UnaryOperator<Integer> sqrt = x -> x*x;
-        System.out.println(sqrt.apply(3));
+        UnaryOperator<Integer> sqrt = x -> x * x;
+        System.out.println(sqrt.apply(5));
     }
 }
