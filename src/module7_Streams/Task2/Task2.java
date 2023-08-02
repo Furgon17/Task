@@ -6,7 +6,6 @@ public class Task2 {
     }
 
     public static NumberGenerator<? super Number> getGenerator() {
-        int a;
         NumberGenerator<Integer> numberGenerator = x -> x.intValue() > 0;
         return (NumberGenerator) numberGenerator;
     }
