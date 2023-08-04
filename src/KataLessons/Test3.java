@@ -1,5 +1,7 @@
 package KataLessons;
 
+import java.util.List;
+import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.LongStream;
 import java.util.stream.Stream;
@@ -40,7 +42,26 @@ public class Test3 {
 
 //        Stream.of(1,2,3,4,5,6).limit(3).forEach(System.out::println);
 
-        Stream.of(1,2,3,3,4,5,5,6).distinct().forEach(System.out::println);
-        
+//        Stream.of(1,2,3,3,4,5,5,6).distinct().forEach(System.out::println);
+
+//        Stream.of(0, 3, 0, 0, 5)
+//                .peek(x -> System.out.format("до distinct: %d%n", x))
+//                .distinct()
+//                .peek(x -> System.out.format("после distinct: %d%n", x))
+//                .map(x -> x*x)
+//                .forEach(x -> System.out.format("После map: %d%n", x));
+//        List<Integer> integerList = Stream.of(0, 3, 0, 0, 5).peek(x-> System.out.format("%s ", x)).collect(Collectors.toList());
+//        System.out.println(integerList);
+//        Stream.of(8, 2, 3, 4, 2, 5).dropWhile(x -> x > 3).forEach(System.out::println);
+//        long count = IntStream.range(0, 10)
+//                .flatMap(x -> IntStream.range(0, x))
+//                .count();
+//        System.out.println(count);
+        System.out.println(
+                Stream.of(0, 2, 9, 13, 5, 11).
+                        map (x -> x * 2)
+//                        .filter(x -> x % 2 == 1).peek(System.out::println)
+                        .count()
+        );
     }
 }
