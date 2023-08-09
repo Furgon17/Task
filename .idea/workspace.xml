@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4525fa91-4abf-4ddf-9e17-6b4e30c0bffa" name="Changes" comment="Модуль 7, задача 4">
-      <change afterPath="$PROJECT_DIR$/src/KataLessons/Test4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/module7_Streams/Task6/Task6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/module7_Streams/Task6/Task6a.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/module7_Streams/Task6/Task6b.java" afterDir="false" />
+    <list default="true" id="4525fa91-4abf-4ddf-9e17-6b4e30c0bffa" name="Changes" comment="Модуль 7, задача 6">
+      <change afterPath="$PROJECT_DIR$/src/module7_Streams/Task7/IMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module7_Streams/Task7/Task7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module7_Streams/Task8.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module7_Streams/Task6/Task6b.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module7_Streams/Task6/Task6b.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,12 +64,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="module7_Streams.Task2.Task2" />
+    <configuration name="Task6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="module7_Streams.Task6.Task6" />
       <module name="Exercices" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="module7_Streams.Task2.*" />
+          <option name="PATTERN" value="module7_Streams.Task6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,15 +77,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="module7_Streams.Task4.Task4" />
+    <configuration name="Task6b" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="module7_Streams.Task6.Task6b" />
       <module name="Exercices" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="module7_Streams.Task4.*" />
+          <option name="PATTERN" value="module7_Streams.Task6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task7" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="module7_Streams.Task7.Task7" />
+      <module name="Exercices" />
+      <option name="VM_PARAMETERS" value="-ea" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -116,13 +124,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="module7_Streams.Task7.Task7" />
+      <module name="Exercices" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Task7" />
+      <item itemvalue="Application.Task6" />
+      <item itemvalue="Application.Task6b" />
+      <item itemvalue="Application.AnnimonExamples" />
+      <item itemvalue="Application.Test3" />
+      <item itemvalue="Application.Test4" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task6b" />
+        <item itemvalue="Application.Task6" />
         <item itemvalue="Application.Test4" />
         <item itemvalue="Application.AnnimonExamples" />
         <item itemvalue="Application.Test3" />
-        <item itemvalue="Application.Task4" />
-        <item itemvalue="Application.Task2" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691135198087</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Модуль 7, задача 6">
+      <created>1691501580677</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1691501580677</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -179,7 +209,8 @@
     <MESSAGE value="Модуль 7, задача 2" />
     <MESSAGE value="Модуль 7, задача 3" />
     <MESSAGE value="Модуль 7, задача 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Модуль 7, задача 4" />
+    <MESSAGE value="Модуль 7, задача 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Модуль 7, задача 6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -212,6 +243,11 @@
           <url>file://$PROJECT_DIR$/src/KataLessons/Test4.java</url>
           <line>19</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/module7_Streams/Task6/Task6b.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

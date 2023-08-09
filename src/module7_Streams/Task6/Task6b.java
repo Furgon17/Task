@@ -18,5 +18,4 @@ public class Task6b {
                 .map(Map.Entry::getKey).limit(10).forEach(System.out::println);
         scanner.close();
     }
-
 }
