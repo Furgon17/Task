@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4525fa91-4abf-4ddf-9e17-6b4e30c0bffa" name="Changes" comment="Модуль 7, задача 6">
-      <change afterPath="$PROJECT_DIR$/src/module7_Streams/Task7/IMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/module7_Streams/Task7/Task7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/module7_Streams/Task8.java" afterDir="false" />
+    <list default="true" id="4525fa91-4abf-4ddf-9e17-6b4e30c0bffa" name="Changes" comment="Модуль 7, задача 8">
+      <change afterPath="$PROJECT_DIR$/src/module7_Streams/Sobes/Group.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module7_Streams/Sobes/SomeConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module7_Streams/Sobes/TaskSobesesovanie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module7_Streams/Sobes/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/module7_Streams/Task6/Task6b.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module7_Streams/Task6/Task6b.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691501580677</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Модуль 7, задача 8">
+      <created>1691609317407</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1691609317407</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -210,7 +217,8 @@
     <MESSAGE value="Модуль 7, задача 3" />
     <MESSAGE value="Модуль 7, задача 4" />
     <MESSAGE value="Модуль 7, задача 6" />
-    <option name="LAST_COMMIT_MESSAGE" value="Модуль 7, задача 6" />
+    <MESSAGE value="Модуль 7, задача 8" />
+    <option name="LAST_COMMIT_MESSAGE" value="Модуль 7, задача 8" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
