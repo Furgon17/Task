@@ -4,9 +4,6 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class SomeConsumer {
-    public static void main(String[] args) {
-
-    }
     //Получить список пользователей, которые состоят хотябы в одной группе нназвание которой начинается на "Х"
     public static List<User> userList(List<User> users){
         return users.stream().

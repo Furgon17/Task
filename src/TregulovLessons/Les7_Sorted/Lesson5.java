@@ -1,6 +1,7 @@
 package TregulovLessons.Les7_Sorted;
 
 import java.util.Arrays;
+import java.util.Comparator;
 
 public class Lesson5 {
     public static void main(String[] args) {
